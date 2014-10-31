@@ -3,7 +3,7 @@ project(tf_splitter)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  tfMessage
+  tf
   )
 
 ###################################
