@@ -45,7 +45,7 @@ public:
     //ROS_INFO("[%s]", tf_message.transforms[0].header.frame_id.c_str());
     tf_prefix = getTfPrefix(tf_message.transforms[0].header.frame_id);
     if(tf_publishers.find(tf_prefix) == tf_publishers.end()) {
-      tf_publishers.insert(std::pair<std::string, ros::Publisher>(tf_prefix, nh.advertise<tf::tfMessage>(tf_prefix, 100)));
+      tf_publishers.insert(std::pair<std::string, ros::Publisher>(tf_prefix, nh.advertise<tf::tfMessage>(tf_prefix, 1)));
       ROS_INFO("[%s] has been extracted from /tf.", tf_prefix.c_str());
     }
     tf_publishers[tf_prefix].publish(tf_message);
