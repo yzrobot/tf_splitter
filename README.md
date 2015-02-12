@@ -2,13 +2,10 @@ tf_splitter
 ===========
 
 1. About
+
+
+
 2. Nodes
-3. Usage
-4. Related Documentation
-
-The tf_splitter package contains a ROS node that will decompose the /tf topic into multiple ones according to the number of robots. This package can be used in multi-robot systems to alleviate the network traffic load.
-
-2. 
 
 2.1 tf_splitter
 
@@ -23,6 +20,15 @@ tf_splitter decomposes the /tf topic into multiple ones according to the number 
 
 /<tf prefix according to the robots> (tf/tfMessage)
     Splitted transform tree. 
+3. Usage
+4. Related Documentation
+5. Support
+
+The tf_splitter package contains a ROS node that will decompose the /tf topic into multiple ones according to the number of robots. This package can be used in multi-robot systems to alleviate the network traffic load.
+
+2. 
+
+
 
 3. Usage
 
