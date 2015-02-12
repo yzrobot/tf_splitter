@@ -30,22 +30,14 @@ rosrun tf_splitter tf_splitter
 Please refer to the following paper to retrieve more information on the node:
 
 @inproceedings{yz14simpar,
-
 author = {Zhi Yan and Luc Fabresse and Jannik Laval and Noury Bouraqadi},
-
 title = {Team Size Optimization for Multi-robot Exploration},
-
-booktitle = {In Proceedings of the 4th International Conference on Simulation, Modeling, and Programming for Autonomous 
+booktitle = {In Proceedings of the 4th International Conference on Simulation, Modeling, and Programming for Autonomous
 Robots (SIMPAR 2014)},
-
 pages = {438--449},
-
 address = {Bergamo, Italy},
-
 month = {October},
-
 year = {2014}
-
 }
 
 5. Support
