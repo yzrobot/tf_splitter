@@ -43,5 +43,11 @@ year = {2014}
 5. Support
 
 Zhi Yan, Luc Fabresse, Jannik Laval, and Noury Bouraqadi
+<<<<<<< HEAD
 Ecole des Mines de Douai, 59508 Douai, France
+=======
+
+Ecole des Mines de Douai, 59508 Douai, France
+
+>>>>>>> 357c35cfd976e66b28a33de4a593252f8bed945a
 http://car.mines-douai.fr
